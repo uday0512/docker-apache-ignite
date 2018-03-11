@@ -19,6 +19,6 @@ RUN chmod +x $IGNITE_HOME/bin/ignite.sh
 
 WORKDIR $IGNITE_HOME/bin
 
-EXPOSE 11211 47100 47500 49112
+EXPOSE 8888
 
 CMD ./ignite.sh
